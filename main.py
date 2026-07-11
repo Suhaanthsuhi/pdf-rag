@@ -40,7 +40,7 @@ rag = RagService(
 
 ingestion.ingest("data/pdfs/EJ1172284.pdf")
 
-question = 'What is this pdf about? who is its author?'
+question = 'What is the summary of this pdf?'
 
 response = rag.answer(question)
 
